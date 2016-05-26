@@ -1,0 +1,17 @@
+{
+  "name": "dslink-js-ic3",
+  "version": "1.0.0",
+  "description": "intelesense IC3 DSLink",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "getDependencies": [
+    "npm install"
+  ],
+  "configs": {
+    "broker": {
+      "type": "url"
+    }
+  }
+}

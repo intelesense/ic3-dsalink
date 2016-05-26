@@ -1,0 +1,24 @@
+{
+  "name": "dslink-js-ic3",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "author": "carlos@intelesense.net",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^2.1.0",
+    "lodash": "^4.13.1",
+    "node-diskfree": "~0.1.0",
+    "sdk-dslink-javascript": "git://github.com/IOT-DSA/sdk-dslink-javascript",
+    "xml2js": "^0.4.16"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
