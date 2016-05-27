@@ -25,7 +25,7 @@ var ic3Data = {};
 	var incommingDataBuffer= "";
 	function connectIC3_D(){
 	  try{
-	  console.log("Starting IC3 Client");
+	  console.log("Starting IC3 Client on " + TCP_HOST);
 	  client.connect(config.TCP_PORT, config.TCP_HOST, function() {
 	      console.log('CONNECTED TO: ' + config.TCP_HOST + ':' + config.TCP_PORT);
 	  });
