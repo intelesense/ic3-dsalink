@@ -10,7 +10,7 @@ var DS = require('dslink'),
 	lastAverage;
 
 var config = {
-	TCP_HOST: "127.0.0.1",
+	TCP_HOST: "192.168.1.101",
 	TCP_PORT: 8088,
 	debug: true
 }
